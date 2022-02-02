@@ -1,0 +1,24 @@
+import java.util.*;
+public class test {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		demo d1=new demo();
+		demo d2=new demo();
+		demo d3=new demo();
+		d1.id=1;
+		d2.id=2;
+		d3.id=3;
+		System.out.println("Enter Start ");
+		demo.start=sc.nextInt();
+		System.out.println("Enter End ");
+		demo.end=sc.nextInt();
+		d1.start();
+		d2.start();
+		d3.start();
+		
+
+	}
+
+}

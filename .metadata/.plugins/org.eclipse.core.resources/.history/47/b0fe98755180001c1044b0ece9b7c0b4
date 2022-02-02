@@ -1,0 +1,25 @@
+import java.applet.Applet;
+import java.awt.Color;
+import java.util.*;
+import java.awt.Frame;
+import java.awt.Toolkit;
+public class Applet_Frame extends Applet {
+     public void init()
+     {
+    	 Frame f=new Frame();
+    	 f.setUndecorated(true);
+    	 f.setTitle("My Frame ");
+    	 //f.setBackground(Color.YELLOW);
+    	 f.setBackground(new Color(55,255,255));
+    	 //f.setCursor(6);
+    	 f.setResizable(false);
+    	 //f.setVisible(true);
+    	 f.setCursor(6);
+    	 f.setResizable(false);
+    	 f.setIconImage(Toolkit.getDefaultToolkit().getImage("my.jpg"));
+    	 //you have a Image.jpg
+    	 f.setSize(200,300);
+    	 f.setLocation(200, 300);
+    	 
+     }
+}

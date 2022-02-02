@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="java.applet.Applet"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="java.awt.Window"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowEvent"/>
+<fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+</qualifiedTypeNameHistroy>
