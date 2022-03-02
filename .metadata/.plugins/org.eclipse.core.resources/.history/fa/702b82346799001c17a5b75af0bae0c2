@@ -1,0 +1,16 @@
+import java.awt.FileDialog;
+import java.awt.Frame;
+
+
+public class File_Dialog_Demo {
+	public static void main(String args[]){
+		Frame f=new Frame();
+		f.setVisible(true);
+		f.setSize(200, 200);
+		FileDialog fd=new FileDialog(f,"File Dialog",0);
+		fd.setVisible(true);
+		FileDialog fd1=new FileDialog(f,"File Dialog",1);
+		fd1.setVisible(true);
+	}
+
+}

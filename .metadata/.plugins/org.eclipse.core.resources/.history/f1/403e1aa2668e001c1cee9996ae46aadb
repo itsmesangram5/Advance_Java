@@ -1,0 +1,34 @@
+import java.applet.Applet;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+public class Button_Event_swing extends Applet implements ActionListener {
+	public void init(){
+
+	s=new JButton("Start");
+	p=new JButton("Pause");
+	s.assActionListener(this);
+	p.addActionListener(this);
+	p.setEnabled(false);
+	
+	add(s);
+	add(p);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		Object obj=e.getSource();
+		if(obj==s){
+			p.getEnabled(true);
+			s.setEnabled(false);
+		}
+		else if(obj==p){
+			p.getEnabled(false);
+			s.setEnabled(true);
+		}
+		
+	}
+	
+
+}
+}

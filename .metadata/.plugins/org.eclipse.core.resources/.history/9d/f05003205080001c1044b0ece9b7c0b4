@@ -1,9 +1,0 @@
-import java.awt.Frame;
-public class Applet_Frame {
-     public void init()
-     {
-    	 Frame f=new Frame();
-    	 
-    	 
-     }
-}

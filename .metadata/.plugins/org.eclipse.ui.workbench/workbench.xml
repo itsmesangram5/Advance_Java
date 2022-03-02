@@ -22,6 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -41,76 +42,68 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Equal_str_abcd.java" partName="Equal_str_abcd.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Problem Statement Solutions/src/Equal_str_abcd.java" title="Equal_str_abcd.java" tooltip="Problem Statement Solutions/src/Equal_str_abcd.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Problem Statement Solutions/src/Equal_str_abcd.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="326" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Swing_Frame.java" partName="Swing_Frame.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Java Frames/src/Swing_Frame.java" title="Swing_Frame.java" tooltip="Java Frames/src/Swing_Frame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java Frames/src/Swing_Frame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="demo.java" partName="demo.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Multithreading of Different Series/src/demo.java" title="demo.java" tooltip="Multithreading of Different Series/src/demo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Multithreading of Different Series/src/demo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1484" selectionTopPixel="331"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="File_Dialog_Demo.java" partName="File_Dialog_Demo.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/File_Saving_D_Box/src/File_Dialog_Demo.java" title="File_Dialog_Demo.java" tooltip="File_Saving_D_Box/src/File_Dialog_Demo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/File_Saving_D_Box/src/File_Dialog_Demo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="214" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applet_Frame.java" partName="Applet_Frame.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Java Frames/src/Applet_Frame.java" title="Applet_Frame.java" tooltip="Java Frames/src/Applet_Frame.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java Frames/src/Applet_Frame.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1077" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonDemo.java" partName="ButtonDemo.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/ButtonDemo.java" title="ButtonDemo.java" tooltip="Button_Class/src/ButtonDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/ButtonDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lexiographic_string.java" partName="Lexiographic_string.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Problem Statement Solutions/src/Lexiographic_string.java" title="Lexiographic_string.java" tooltip="Problem Statement Solutions/src/Lexiographic_string.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Problem Statement Solutions/src/Lexiographic_string.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="742" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JButtoDemo.java" partName="JButtoDemo.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/JButtoDemo.java" title="JButtoDemo.java" tooltip="Button_Class/src/JButtoDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/JButtoDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Array_zero_last.java" partName="Array_zero_last.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Problem Statement Solutions/src/Array_zero_last.java" title="Array_zero_last.java" tooltip="Problem Statement Solutions/src/Array_zero_last.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Problem Statement Solutions/src/Array_zero_last.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="32" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button_Nmae_Change.java" partName="Button_Nmae_Change.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/Button_Nmae_Change.java" title="Button_Nmae_Change.java" tooltip="Button_Class/src/Button_Nmae_Change.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/Button_Nmae_Change.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applet_Frame_using_awt_main.java" partName="Applet_Frame_using_awt_main.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Java Frames/src/Applet_Frame_using_awt_main.java" title="Applet_Frame_using_awt_main.java" tooltip="Java Frames/src/Applet_Frame_using_awt_main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java Frames/src/Applet_Frame_using_awt_main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="719" selectionOffset="218" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button_Color_Change.java" partName="Button_Color_Change.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/Button_Color_Change.java" title="Button_Color_Change.java" tooltip="Button_Class/src/Button_Color_Change.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/Button_Color_Change.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Frame_using_swing.java" partName="Frame_using_swing.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Java Frames/src/Frame_using_swing.java" title="Frame_using_swing.java" tooltip="Java Frames/src/Frame_using_swing.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java Frames/src/Frame_using_swing.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="934" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cal_button.java" partName="Cal_button.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Calci/src/Cal_button.java" title="Cal_button.java" tooltip="Calci/src/Cal_button.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Calci/src/Cal_button.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Distinct_Permutations.java" partName="Distinct_Permutations.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Problem Statement Solutions/src/Distinct_Permutations.java" title="Distinct_Permutations.java" tooltip="Problem Statement Solutions/src/Distinct_Permutations.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Problem Statement Solutions/src/Distinct_Permutations.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="362" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Open_app.java" partName="Open_app.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/Open_app.java" title="Open_app.java" tooltip="Button_Class/src/Open_app.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/Open_app.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applet_Frame_awt_close_message.java" partName="Applet_Frame_awt_close_message.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Java Frames/src/Applet_Frame_awt_close_message.java" title="Applet_Frame_awt_close_message.java" tooltip="Java Frames/src/Applet_Frame_awt_close_message.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Java Frames/src/Applet_Frame_awt_close_message.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1376" selectionTopPixel="151"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button_Event_swing.java" partName="Button_Event_swing.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/Button_Event_swing.java" title="Button_Event_swing.java" tooltip="Button_Class/src/Button_Event_swing.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/Button_Event_swing.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Run_app.java" partName="Run_app.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/Button_Class/src/Run_app.java" title="Run_app.java" tooltip="Button_Class/src/Run_app.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Button_Class/src/Run_app.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JFile_Choose_Demo.java" partName="JFile_Choose_Demo.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/File_Saving_D_Box/src/JFile_Choose_Demo.java" title="JFile_Choose_Demo.java" tooltip="File_Saving_D_Box/src/JFile_Choose_Demo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/File_Saving_D_Box/src/JFile_Choose_Demo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="290" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TextareaExampleAwt.java" partName="TextareaExampleAwt.java" path="C:/Users/itsme/OneDrive/Documents/Java_Advance/File_Saving_D_Box/src/TextareaExampleAwt.java" title="TextareaExampleAwt.java" tooltip="File_Saving_D_Box/src/TextareaExampleAwt.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/File_Saving_D_Box/src/TextareaExampleAwt.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="411" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>&#x0A;<category IMemento.internal.id="Java Build Path Problems (1 item)"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.allSeverityField="400" org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
-<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
-</viewState>
-</view>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (11 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="120" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -172,7 +165,9 @@
 </viewState>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
@@ -233,15 +228,17 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.views.AllMarkersView"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.wst.server.ui.ServersView"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<fastViewBars/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<view id="org.eclipse.wst.server.ui.ServersView" ratio="0.3"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.22210637"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
@@ -256,25 +253,19 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.249499" ratioLeft="249" ratioRight="749" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.69984204" ratioLeft="443" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
-<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20167626" ratioLeft="385" ratioRight="1524" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.69984204" ratioLeft="443" ratioRight="190" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.69959944" ratioLeft="524" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -416,168 +407,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Frame_using_swing.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Problem Statement Solutions/src/Lexiographic_string.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Problem Statement Solutions/src/Array_zero_last.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame_using_awt_main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Problem Statement Solutions/src/Distinct_Permutations.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame_using_awt_main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Frame_using_swing.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame_using_awt_main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Java Frames/src/Applet_Frame_awt_close_message.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/File_Saving_D_Box/src/File_Dialog_Demo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/ButtonDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/JButtoDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/Button_Nmae_Change.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/Button_Color_Change.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Calci/src/Cal_button.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/Open_app.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/Button_Event_swing.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Button_Class/src/Run_app.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/File_Saving_D_Box/src/JFile_Choose_Demo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/File_Saving_D_Box/src/TextareaExampleAwt.java"/>
 </editors>
-<item historyLabel="Applet_Frame.java" index="1">
-<position info="not_deleted" x="479" y="0"/>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="344" y="0"/>
 </item>
-<item historyLabel="Lexiographic_string.java" index="2">
-<position info="not_deleted" x="742" y="0"/>
+<item historyLabel="ButtonDemo.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Array_zero_last.java" index="3">
-<position info="not_deleted" x="32" y="0"/>
+<item historyLabel="JButtoDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="4">
-<position info="not_deleted" x="683" y="0"/>
+<item historyLabel="Button_Nmae_Change.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Frame_using_swing.java" index="0">
-<position info="not_deleted" x="365" y="0"/>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="344" y="0"/>
 </item>
-<item historyLabel="Distinct_Permutations.java" index="5">
-<position info="not_deleted" x="1193" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="6">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="7">
-<position info="not_deleted" x="479" y="0"/>
-</item>
-<item historyLabel="Frame_using_swing.java" index="8">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
+<item historyLabel="File_Dialog_Demo.java" index="0">
 <position/>
 </item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
+<item historyLabel="Button_Nmae_Change.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
 <position/>
 </item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
+<item historyLabel="Button_Nmae_Change.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JButtoDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="543" y="0"/>
+</item>
+<item historyLabel="Button_Nmae_Change.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="Button_Nmae_Change.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JButtoDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ButtonDemo.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Button_Color_Change.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cal_button.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Open_app.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Button_Event_swing.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Button_Nmae_Change.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ButtonDemo.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JButtoDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Open_app.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Run_app.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="JButtoDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="305" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="510" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="539" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="412" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="535" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="530" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="290" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="510" y="0"/>
+</item>
+<item historyLabel="JButtoDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="290" y="0"/>
+</item>
+<item historyLabel="File_Dialog_Demo.java" index="0">
+<position info="not_deleted" x="214" y="0"/>
+</item>
+<item historyLabel="JFile_Choose_Demo.java" index="9">
+<position info="not_deleted" x="290" y="0"/>
+</item>
+<item historyLabel="TextareaExampleAwt.java" index="10">
+<position info="not_deleted" x="157" y="0"/>
+</item>
+<item historyLabel="TextareaExampleAwt.java" index="10">
+<position info="not_deleted" x="348" y="0"/>
+</item>
+<item historyLabel="TextareaExampleAwt.java" index="10">
+<position info="not_deleted" x="516" y="0"/>
+</item>
+<item historyLabel="TextareaExampleAwt.java" index="10">
+<position info="not_deleted" x="858" y="0"/>
+</item>
+<item historyLabel="TextareaExampleAwt.java" index="10">
 <position/>
 </item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
+<item historyLabel="TextareaExampleAwt.java" index="10">
 <position/>
 </item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="937" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
+<item historyLabel="TextareaExampleAwt.java" index="10">
 <position/>
 </item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="942" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="937" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="1207" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="933" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="1207" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="1186" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="909" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="942" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="1040" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="942" y="0"/>
-</item>
-<item historyLabel="Frame_using_swing.java" index="8">
-<position info="not_deleted" x="985" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="1160" y="0"/>
-</item>
-<item historyLabel="Frame_using_swing.java" index="8">
-<position info="not_deleted" x="985" y="0"/>
-</item>
-<item historyLabel="Frame_using_swing.java" index="8">
-<position info="not_deleted" x="972" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="942" y="0"/>
-</item>
-<item historyLabel="Applet_Frame.java" index="10">
-<position info="not_deleted" x="1077" y="0"/>
-</item>
-<item historyLabel="Frame_using_swing.java" index="8">
-<position info="not_deleted" x="934" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="0" y="942"/>
-</item>
-<item historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="1640" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="258" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="234" y="1401"/>
-</item>
-<item historyLabel="Applet_Frame_using_awt_main.java" index="9">
-<position info="not_deleted" x="218" y="719"/>
-</item>
-<item historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="1343" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="1331" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="1606" y="0"/>
-</item>
-<item historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="1501" y="0"/>
-</item>
-<item active="true" historyLabel="Applet_Frame_awt_close_message.java" index="11">
-<position info="not_deleted" x="1597" y="0"/>
+<item active="true" historyLabel="TextareaExampleAwt.java" index="10">
+<position info="not_deleted" x="172" y="18"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -598,50 +588,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applet_Frame_awt_close_message.java" tooltip="Java Frames/src/Applet_Frame_awt_close_message.java">
-<persistable path="/Java Frames/src/Applet_Frame_awt_close_message.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TextareaExampleAwt.java" tooltip="File_Saving_D_Box/src/TextareaExampleAwt.java">
+<persistable path="/File_Saving_D_Box/src/TextareaExampleAwt.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Distinct_Permutations.java" tooltip="Problem Statement Solutions/src/Distinct_Permutations.java">
-<persistable path="/Problem Statement Solutions/src/Distinct_Permutations.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JFile_Choose_Demo.java" tooltip="File_Saving_D_Box/src/JFile_Choose_Demo.java">
+<persistable path="/File_Saving_D_Box/src/JFile_Choose_Demo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Frame_using_swing.java" tooltip="Java Frames/src/Frame_using_swing.java">
-<persistable path="/Java Frames/src/Frame_using_swing.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Run_app.java" tooltip="Button_Class/src/Run_app.java">
+<persistable path="/Button_Class/src/Run_app.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applet_Frame_using_awt_main.java" tooltip="Java Frames/src/Applet_Frame_using_awt_main.java">
-<persistable path="/Java Frames/src/Applet_Frame_using_awt_main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button_Event_swing.java" tooltip="Button_Class/src/Button_Event_swing.java">
+<persistable path="/Button_Class/src/Button_Event_swing.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="subnumber_Size.java" tooltip="Problem Statement Solutions/src/subnumber_Size.java">
-<persistable path="/Problem Statement Solutions/src/subnumber_Size.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Open_app.java" tooltip="Button_Class/src/Open_app.java">
+<persistable path="/Button_Class/src/Open_app.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="numberdiv.java" tooltip="Problem Statement Solutions/src/numberdiv.java">
-<persistable path="/Problem Statement Solutions/src/numberdiv.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cal_button.java" tooltip="Calci/src/Cal_button.java">
+<persistable path="/Calci/src/Cal_button.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Array_zero_last.java" tooltip="Problem Statement Solutions/src/Array_zero_last.java">
-<persistable path="/Problem Statement Solutions/src/Array_zero_last.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button_Color_Change.java" tooltip="Button_Class/src/Button_Color_Change.java">
+<persistable path="/Button_Class/src/Button_Color_Change.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Lexiographic_string.java" tooltip="Problem Statement Solutions/src/Lexiographic_string.java">
-<persistable path="/Problem Statement Solutions/src/Lexiographic_string.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Button_Nmae_Change.java" tooltip="Button_Class/src/Button_Nmae_Change.java">
+<persistable path="/Button_Class/src/Button_Nmae_Change.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applet_Frame.java" tooltip="Java Frames/src/Applet_Frame.java">
-<persistable path="/Java Frames/src/Applet_Frame.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JButtoDemo.java" tooltip="Button_Class/src/JButtoDemo.java">
+<persistable path="/Button_Class/src/JButtoDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="demo.java" tooltip="Multithreading of Different Series/src/demo.java">
-<persistable path="/Multithreading of Different Series/src/demo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonDemo.java" tooltip="Button_Class/src/ButtonDemo.java">
+<persistable path="/Button_Class/src/ButtonDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Equal_str_abcd.java" tooltip="Problem Statement Solutions/src/Equal_str_abcd.java">
-<persistable path="/Problem Statement Solutions/src/Equal_str_abcd.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="File_Dialog_Demo.java" tooltip="File_Saving_D_Box/src/File_Dialog_Demo.java">
+<persistable path="/File_Saving_D_Box/src/File_Dialog_Demo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="main.java" tooltip="C:\Users\itsme\OneDrive\Documents\Java_Advance\product\src\main.java">
-<persistable uri="file:/C:/Users/itsme/OneDrive/Documents/Java_Advance/product/src/main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Swing_Frame.java" tooltip="Java Frames/src/Swing_Frame.java">
+<persistable path="/Java Frames/src/Swing_Frame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="C:\Users\itsme\OneDrive\Documents\Java_Advance\product\src\Customer.java">
-<persistable uri="file:/C:/Users/itsme/OneDrive/Documents/Java_Advance/product/src/Customer.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Awt_Frame_Close.java" tooltip="Java Frames/src/Awt_Frame_Close.java">
+<persistable path="/Java Frames/src/Awt_Frame_Close.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Common.java" tooltip="C:\Users\itsme\OneDrive\Documents\Java_Advance\product\src\Common.java">
-<persistable uri="file:/C:/Users/itsme/OneDrive/Documents/Java_Advance/product/src/Common.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AWT_Close_with_Msg.java" tooltip="Java Frames/src/AWT_Close_with_Msg.java">
+<persistable path="/Java Frames/src/AWT_Close_with_Msg.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Basic.java" tooltip="C:\Users\itsme\OneDrive\Documents\Java_Advance\product\src\Basic.java">
-<persistable uri="file:/C:/Users/itsme/OneDrive/Documents/Java_Advance/product/src/Basic.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Swing_Frame_Close.java" tooltip="Java Frames/src/Swing_Frame_Close.java">
+<persistable path="/Java Frames/src/Swing_Frame_Close.java"/>
 </file>
 </mruList>
 </workbench>

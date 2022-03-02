@@ -1,5 +1,8 @@
 import java.awt.Color;
 import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+
 import javax.swing.JFrame;
 public class Frame_using_swing {
 
@@ -26,6 +29,22 @@ public class Frame_using_swing {
 	   	 //f.DO_NOTHING_ON_CLOSE is a final variable in system having given value '0'
 	   	 f.setDefaultCloseOperation(0);
 
+	}
+	public void actionPerformed(ActionEvent e){
+		String str=e.getActionCommand();
+		try {
+		if(str.equals("Notepd")){
+				runtime.exec("notepad.exe");
+		}
+		if(str.equals("MsPaint")){
+			runtime.exec("mspaint.exe");
+		}
+		if(str.equals("Calc")){
+			runtime.exec("calc.exe");
+		}
+		}
+		catch(IOException e1){
+		e1.printStackTrace();
 	}
 
 }
