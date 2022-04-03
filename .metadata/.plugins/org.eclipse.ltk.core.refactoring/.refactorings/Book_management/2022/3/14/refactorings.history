@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DAO.java&apos; to &apos;product_management/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Book_management&apos;&#x0D;&#x0A;- Destination element: &apos;product_management/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;DAO.java&apos;" description="Copy compilation unit" destination="=product_management/src&lt;" element1="/src&lt;{DAO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648652358310" units="1" version="1.0"/>
+</session>

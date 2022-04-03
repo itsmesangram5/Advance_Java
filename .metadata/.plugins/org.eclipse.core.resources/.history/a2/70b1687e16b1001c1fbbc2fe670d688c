@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class matrice_perfect_square {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Hello");
+		int r=sc.nextInt();
+		sc.nextLine();
+		int c=r;
+	    int mat[][]=new int[r][c];
+	    String s[]=new String[r];
+        for(int a=0;a<3;a++){
+        	s[a]=sc.nextLine();
+        }
+        for(int x=0;x<3;x++){
+        String num[]=new String[3];
+        num=s[x].split(",");
+        for(int m=x;m<r;m++){
+        	for(int n=0;n<r;n++){
+        		mat[m][n]=Integer.parseInt(num[n]);
+        	}
+        }
+        }
+        for(int i=0;i<r;i++){
+        	for(int j=0;j<r;j++){
+        		System.out.println(mat[i][j]);
+        	}
+        }
+	}
+
+}
+

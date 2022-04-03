@@ -5,10 +5,6 @@ import java.io.IOException;
 
 import javax.swing.JFrame;
 public class Frame_using_swing {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		JFrame f=new JFrame();
 	   	 f.setUndecorated(false);
@@ -27,10 +23,10 @@ public class Frame_using_swing {
 	   	 f.setLocation(200, 300);
 	   	 //f.setDefaultCloseOperation(f.DO_NOTHING_ON_CLOSE);
 	   	 //f.DO_NOTHING_ON_CLOSE is a final variable in system having given value '0'
-	   	 f.setDefaultCloseOperation(0);
+	   	 f.setDefaultCloseOperation(1);
 
 	}
-	public void actionPerformed(ActionEvent e){
+	/*public void actionPerformed(ActionEvent e){
 		String str=e.getActionCommand();
 		try {
 		if(str.equals("Notepd")){
@@ -45,6 +41,6 @@ public class Frame_using_swing {
 		}
 		catch(IOException e1){
 		e1.printStackTrace();
-	}
+	}*/
 
 }

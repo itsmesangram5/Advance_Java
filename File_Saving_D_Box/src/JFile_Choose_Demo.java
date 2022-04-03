@@ -12,7 +12,7 @@ public class JFile_Choose_Demo {
 		JFrame f=new JFrame();
 		JFileChooser jfc=new JFileChooser();
 		int result = jfc.showOpenDialog(f);
-		//int result = jfc.showsaveDialog(f);
+		//int result = jfc.showSaveDialog(f);
 		System.out.println(" Value "+result);
 		if(result==0){
 			File f1=jfc.getSelectedFile();

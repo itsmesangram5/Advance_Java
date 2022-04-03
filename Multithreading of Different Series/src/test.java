@@ -17,7 +17,7 @@ public class test {
 		d1.start();
 		d2.start();
 		d3.start();
-		
+		//System.out.println("Sangram\tis\tgood\tboy\nSangram\tis\tnot good\tboy");
 
 	}
 

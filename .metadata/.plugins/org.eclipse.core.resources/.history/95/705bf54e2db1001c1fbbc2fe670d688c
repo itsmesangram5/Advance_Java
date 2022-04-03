@@ -1,0 +1,53 @@
+/*consider a m*n matrix inmatrix containing non zero positive numbers and a non zero positive number innum where innum is 
+  bet 1 and n,m identify and print outarr based on the logic given below
+  for full quetion reffer to javaintern whatsapp grp 
+ */
+import java.util.Scanner;
+public class matrice_perfect_square {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Hello");
+		int r=sc.nextInt();
+		sc.nextLine();
+		int c=r;
+	    int mat[][]=new int[r][c];
+	    String s[]=new String[r];
+        for(int a=0;a<3;a++){
+        	s[a]=sc.nextLine();
+        }
+        for(int x=0;x<3;x++){
+        String num[]=new String[3];
+        num=s[x].split(",");
+        for(int m=x;m<x+1;m++){
+        	for(int n=0;n<r;n++){
+        		mat[m][n]=Integer.parseInt(num[n]);
+        	}
+        }
+        }
+        for(int g=0;g<r;g++){
+        	for(int h=0;h<r;h++){
+        		System.out.println(mat[g][h]);
+        	}
+        }
+  
+        int sub=sc.nextInt();
+        int square[]=new int[(r-(sub-1))*(r-(sub-1))];
+        int nsquare[]=new int[(r-(sub-1))*(r-(sub-1))];
+        for(int b=0;b<r-1;b++){
+        	    int p=b+sub;
+        	    int q=r-(sub-1);
+        	    int f=sub,add=0;
+        	    for(int d=0;d<q;d++){
+                for(int i=b;i<p;i++){
+    	              for(int j=d;j<f;j++){
+    		                 System.out.println(mat[i][j]);
+    		                 add=add+mat[i][j];
+    	                                  }
+                                    }
+        	                f++; 
+        	                System.out.println("_________________");}
+                    }   
+        }
+
+}
+

@@ -1,0 +1,96 @@
+import java.awt.Color;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class operations {
+	static int insert(String a1,String a2,String a3, String a4,String a5){
+		try
+		{
+			DAO db=new DAO();
+			Connection conn=db.getConnection();
+	
+			 String name=a1;
+			 String author=a2;
+			 int price=Integer.parseInt(a5);
+			 int quantity=Integer.parseInt(a4);
+			 int pages=Integer.parseInt(a4);
+			 
+			 String insertQuery="insert into booktable values(?,?,?,?,?)";
+			 PreparedStatement preparedStatement;
+			 
+			 preparedStatement=conn.prepareStatement(insertQuery);
+			 preparedStatement.setString(1,name);
+			 preparedStatement.setString(2,author);
+			 preparedStatement.setString(3,price+"");
+			 preparedStatement.setString(4,quantity+"");
+			 preparedStatement.setString(5,pages+"");
+			 
+			 preparedStatement.executeUpdate();
+			 return 1;
+			 
+			 
+			 
+		}
+		catch(Exception e){
+			 System.out.println(e);
+			 return 0;
+			
+		}
+		}
+		static int delete(String p){
+			try{
+				DAO db=new DAO();
+				Connection conn=db.getConnection();
+		
+				String name=p;
+				
+				String deleteQuery="delete from booktable where name=?";
+				PreparedStatement preparedStatement;
+				
+				preparedStatement=conn.prepareStatement(deleteQuery);
+				preparedStatement.setString(1, name);
+				
+				int count=preparedStatement.executeUpdate();
+				if(count==0){
+					//System.out.println("No record Found With Name ");
+					return 0;
+					}
+				else
+					{
+					//System.out.println("Total "+count+"Record Deleted!!");
+					return 1;}
+				
+				
+			}
+			catch(Exception e){
+				System.out.println(e);	
+				return -1;
+				}
+		}
+		static String search(String b1){
+			try{
+				DAO db=new DAO();
+				Connection conn=db.getConnection();
+			
+				String selectQuery="select * from booktable";
+				PreparedStatement preparedStatement;
+				
+				String s1=b1;
+				preparedStatement=conn.prepareStatement(selectQuery);
+				ResultSet result=preparedStatement.executeQuery();
+				
+				String data="Book Not Found!!";
+				while(result.next()){
+					if(s1.equalsIgnoreCase(result.getString(1))){
+						data="  Name of Book "+result.getString(1)+"/n  Author Name "+result.getString(2)+"/n  Number of Books Available "+result.getString(3)+"/n  Number Of Pages "+result.getString(4);
+					}
+				}
+				return data;
+				}
+				catch(Exception e){
+					return e+"";
+				}
+		}
+
+}

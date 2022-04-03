@@ -1,4 +1,4 @@
-//Write a program to to take number from user take input of size of subnumber and print its 
+//Write a program to to take number from user take input of size of subnumber and print max subnumbers its sum
 //of its digits
 import java.util.*;
 public class subnumber_Size {

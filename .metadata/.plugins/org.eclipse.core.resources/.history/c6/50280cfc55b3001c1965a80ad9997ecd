@@ -1,0 +1,92 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class operations {
+	static int insert(String a1,String a2,String a3, String a4,String a5){
+		try
+		{
+			DAO db=new DAO();
+			Connection conn=db.getConnection();
+	
+			 int id=Integer.parseInt(a1);
+			 String name=a2;
+			 int price=Integer.parseInt(a3);
+			 int quantity=Integer.parseInt(a4);
+			 String company=a5;
+			 
+			 String insertQuery="insert into product_table values(?,?,?,?,?)";
+			 PreparedStatement preparedStatement;
+			 
+			 preparedStatement=conn.prepareStatement(insertQuery);
+			 preparedStatement.setInt(1, id);
+			 preparedStatement.setString(2,name);
+			 preparedStatement.setInt(3,price);
+			 preparedStatement.setInt(4,quantity);
+			 preparedStatement.setString(5,company);
+			 
+			 preparedStatement.executeUpdate();
+			 return 1;
+			 
+			 
+			 
+		}
+		catch(Exception e){
+			 System.out.println(e);
+			 return 0;
+			
+		}
+		}
+		static int delete(String p){
+			try{
+				DAO db=new DAO();
+				Connection conn=db.getConnection();
+		
+				int pid=Integer.parseInt(p);
+				
+				String deleteQuery="delete from booktable where pid=?";
+				PreparedStatement preparedStatement;
+				
+				preparedStatement=conn.prepareStatement(deleteQuery);
+				preparedStatement.setInt(1, pid);
+				
+				int count=preparedStatement.executeUpdate();
+				if(count==0){
+					//System.out.println("No record Found With Name ");
+					return 0;
+					}
+				else
+					{
+					//System.out.println("Total "+count+"Record Deleted!!");
+					return 1;}
+				
+				
+			}
+			catch(Exception e){
+				System.out.println(e);	
+				return -1;
+				}
+		}
+		static String displayall(){
+			try{
+				DAO db=new DAO();
+				Connection conn=db.getConnection();
+			
+				String selectQuery="select * from product_table";
+				PreparedStatement preparedStatement;
+				
+				preparedStatement=conn.prepareStatement(selectQuery);
+				ResultSet result=preparedStatement.executeQuery();
+				
+				String string_data="";
+				while(result.next()){
+					string_data=string_data+"\nId   "+result.getString(1)+"\nName   "+result.getString(2)+"\nPassword   "+result.getString(3)+"\n\n";
+				}
+				return string_data;
+				}
+				catch(Exception e){
+					return e+"";
+				}
+		}
+
+}
