@@ -20,14 +20,15 @@ import javax.swing.JTextField;
 import javax.swing.border.Border;
 
 public class product extends JFrame implements ActionListener {
-	static JFrame login,f,f1,f2,f3,f4,f5,f6;
-    static String s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12;
+	static JFrame login,f,f1,f2,f3,f4,f5,f6,  f7;
+    static String s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,  s13,s14,s16;
     static int a1,a2,a3,a4,a5;
-    static JTextField t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15;
-    static JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,l21,l22,l23,l24,l25,l26,l27,l28;
-    static JTextArea p1,p2,p3;
-    static JButton b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25,b26,b27;
+    static JTextField t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,  t16,t17,t18;
+    static JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15,l16,l17,l18,l19,l20,l21,l22,l23,l24,l25,l26,l27,l28  ,l29,l30,l31,l32,l33;
+    static JTextArea p1,p2,p3  ,p4;
+    static JButton b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25,b26,b27,b28,b29  ,b30,b31,b32,b33,b34;
 	@SuppressWarnings("deprecation")
+	static int ssn=1;
 	product(){
 		/*_____________________________Login Frame__________________________*/
 		login=new JFrame();
@@ -36,8 +37,8 @@ public class product extends JFrame implements ActionListener {
 		//login.setUndecorated(true);
 	    Container c=login.getContentPane();
 		c.setBackground(Color.gray);
-		//login.setVisible(true);
-		login.setVisible(false);
+		login.setVisible(true);
+		//login.setVisible(false);
 		login.setBounds(0, 0,1920, 1080);
 		
 		l1=new JLabel("Welcome to Kishor Store ");
@@ -103,12 +104,12 @@ public class product extends JFrame implements ActionListener {
 		b2.setVisible(true);
 		login.add(b2);
 		
-		/*Image imgs=Toolkit.getDefaultToolkit().getImage("C:\\Users\\itsme\\OneDrive\\Pictures\\New folder\\j.jpg");
+		/*Image imgs=Toolkit.getDefaultToolkit().getImage("C:\\Users\\itsme\\OneDrive\\Pictures\\New folder\\h.png");
   	    ImageIcon is=new ImageIcon(imgs);
   	    JLabel i=new JLabel(is);
   	    //i.setBackground(Color.blue);
-  	    i.setBounds(400,350, 400, 400);
-  	    login.add(i1);*/
+  	    i.setBounds(10,10, 200, 200);
+  	    login.add(i);*/
 		
 		
 		/*_____________________________Frame f__________________________*/
@@ -118,8 +119,8 @@ public class product extends JFrame implements ActionListener {
 		//f.setUndecorated(true);
 	    Container c1=f.getContentPane();
 		c1.setBackground(Color.gray);
-		f.setVisible(true);
-		//f.setVisible(false);
+		//f.setVisible(true);
+		f.setVisible(false);
 		f.setBounds(0, 0,1920, 1080);
 		
 		l6=new JLabel("Kishor Store ");
@@ -161,7 +162,7 @@ public class product extends JFrame implements ActionListener {
 		b5.setVisible(true);
 		f.add(b5);
 		
-		b6=new JButton("Search");
+		b6=new JButton("Display");
 		b6.setFont(b6.getFont().deriveFont(30.85632412f));
 		b6.setBounds(150, 550, 300, 50);
 		b6.enable();
@@ -174,16 +175,28 @@ public class product extends JFrame implements ActionListener {
 		
 		b7=new JButton("About Us");
 		b7.setFont(b6.getFont().deriveFont(30.85632412f));
-		b7.setBounds(150, 650, 300, 50);
+		b7.setBounds(150, 740, 300, 50);
 		b7.enable();
 		b7.addActionListener(this);
 		b7.setBackground(Color.DARK_GRAY);
 		b7.setForeground(Color.white);
 		b7.setBorder(border1);
-		b7.setVisible(true);
+		b7.setVisible(true);      
 		f.add(b7);
 		
-		Image imgs1=Toolkit.getDefaultToolkit().getImage("C:\\Users\\itsme\\OneDrive\\Pictures\\New folder\\facebook1.png");
+		b33=new JButton("See Products");
+		b33.setFont(b33.getFont().deriveFont(30.85632412f));
+		b33.setBounds( 150, 650, 300, 50);
+		b33.enable();
+		b33.addActionListener(this);
+		b33.setBackground(Color.DARK_GRAY);
+		b33.setForeground(Color.white);
+		b33.setBorder(border1);
+		b33.setVisible(true);
+		f.add(b33);
+		
+		
+		/*Image imgs1=Toolkit.getDefaultToolkit().getImage("C:\\Users\\itsme\\OneDrive\\Pictures\\New folder\\facebook1.png");
   	    ImageIcon is1=new ImageIcon(imgs1);
   	    JLabel i1=new JLabel(is1);
   	    i1.setForeground(Color.white);
@@ -200,7 +213,7 @@ public class product extends JFrame implements ActionListener {
   	    JLabel i2=new JLabel(is2);
   	    i2.setForeground(Color.white);
   	    i2.setBounds(990,950, 50, 51);
-  	    f.add(i2);
+  	    f.add(i2);*/
 		
   	   
 		/*____________________________Frame f1__________________________*/
@@ -282,7 +295,7 @@ public class product extends JFrame implements ActionListener {
 		l13=new JLabel("This Id has already Entered");
 		l13.setFont(l13.getFont().deriveFont(15.85632412f));
 		l13.setForeground(Color.RED);
-		//l5.setVisible(true);
+		l13.setVisible(false);
 		l13.setBounds(820, 300, 250, 30);
 		f1.add(l13);
 		
@@ -355,7 +368,7 @@ public class product extends JFrame implements ActionListener {
 		l16=new JLabel("Product ID NOT Found !!");
 		l16.setFont(l16.getFont().deriveFont(15.85632412f));
 		l16.setForeground(Color.RED);
-		l16.setVisible(true);
+		l16.setVisible(false);
 		l16.setBounds(620, 350, 250, 30);
 		f2.add(l16);
 		
@@ -426,7 +439,7 @@ public class product extends JFrame implements ActionListener {
 		l21.setBounds(300, 480, 700, 30);
 		f3.add(l21);
 		
-		l22=new JLabel("Category");
+		l22=new JLabel("Company");
 		l22.setFont(l12.getFont().deriveFont(30.85632412f));
 		l22.setBounds(300, 540, 700, 60);
 		f3.add(l22);
@@ -469,7 +482,7 @@ public class product extends JFrame implements ActionListener {
 		l23=new JLabel("ID Not Found !!");
 		l23.setFont(l13.getFont().deriveFont(15.85632412f));
 		l23.setForeground(Color.RED);
-		//l23.setVisible(true);
+		l23.setVisible(false);
 		l23.setBounds(820, 300, 250, 30);
 		f3.add(l23);
 		
@@ -641,6 +654,28 @@ public class product extends JFrame implements ActionListener {
 		b23.setVisible(true);
 		f6.add(b23);
 		
+		b28=new JButton("First");
+		b28.setFont(b22.getFont().deriveFont(20.85632412f));
+		b28.setBounds(650, 800, 150, 40);
+		b28.enable();
+		b28.addActionListener(this);
+		b28.setBackground(Color.DARK_GRAY);
+		b28.setForeground(Color.white);
+		b28.setBorder(border1);
+		b28.setVisible(true);
+		f6.add(b28);
+		
+		b29=new JButton("Last");
+		b29.setFont(b23.getFont().deriveFont(20.85632412f));
+		b29.setBounds(1170, 800, 150, 40);
+		b29.enable();
+		b29.addActionListener(this);
+		b29.setBackground(Color.DARK_GRAY);
+		b29.setForeground(Color.white);
+		b29.setBorder(border1);
+		b29.setVisible(true);
+		f6.add(b29);
+		
 		b25=new JButton("Exit");
 		b25.setFont(b25.getFont().deriveFont(20.85632412f));
 		b25.setBounds(915, 860, 150, 40);
@@ -675,8 +710,89 @@ public class product extends JFrame implements ActionListener {
 		p2.setFont(p1.getFont().deriveFont(20.85632412f));
 		f6.add(p2);
 		
-			
+		/*_____________________________Frame f7__________________________*/
+		f7=new JFrame();
+		f7.setLayout(null);
+		//f7.setForeground(Color.black);
+		//f7.setUndecorated(true);
+	    Container c9=f7.getContentPane();
+		c9.setBackground(Color.gray);
+		//f7.setVisible(true);
+		f7.setVisible(false);
+		f7.setBounds(0, 0,1920, 1080);
 		
+		l29=new JLabel("See Product ");
+		l29.setFont(l29.getFont().deriveFont(55.85632412f));
+		l29.setBounds(300, 200, 700, 60);
+		f7.add(l29);
+		
+		l30=new JLabel("Enter Number/ID you want to See");
+		l30.setFont(l30.getFont().deriveFont(30.85632412f));
+		l30.setBounds(300, 300, 550, 30);
+		f7.add(l30);
+		
+		t16=new JTextField();
+		t16.setBounds(300,350,300,30);
+		t16.setFont(t8.getFont().deriveFont(15.85632412f));
+		t16.setVisible(true);
+		t16.setBorder(border);
+		f7.add(t16);
+		
+		l31=new JLabel("Product NOT Found !!");
+		l31.setFont(l16.getFont().deriveFont(15.85632412f));
+		l31.setForeground(Color.RED);
+		l31.setVisible(false);
+		l31.setBounds(620, 350, 250, 30);
+		f7.add(l31);
+		
+		b30=new JButton();
+		b30.setIcon(is3);
+		b30.setBounds(20, 20, 50, 50);
+		b30.enable();
+		b30.addActionListener(this);
+		b30.setBorder(border1);
+		b30.setVisible(true);
+		f7.add(b30);
+		
+		b31=new JButton("See By Number");
+		b31.setFont(b12.getFont().deriveFont(20.85632412f));
+		b31.setBounds(300, 400, 200, 40);
+		b31.enable();
+		b31.addActionListener(this);
+		b31.setBackground(Color.DARK_GRAY);
+		b31.setForeground(Color.white);
+		b31.setBorder(border1);
+		b31.setVisible(true);
+		f7.add(b31);
+		
+		b34=new JButton("See By ID");
+		b34.setFont(b12.getFont().deriveFont(20.85632412f));
+		b34.setBounds(530, 400, 200, 40);
+		b34.enable();
+		b34.addActionListener(this);
+		b34.setBackground(Color.DARK_GRAY);
+		b34.setForeground(Color.white);
+		b34.setBorder(border1);
+		b34.setVisible(true);
+		f7.add(b34);
+		
+		b32=new JButton("Cancel");
+		b32.setFont(b13.getFont().deriveFont(20.85632412f));
+		b32.setBounds(780, 400, 150, 40);
+		b32.enable();
+		b32.addActionListener(this);
+		b32.setBackground(Color.DARK_GRAY);
+		b32.setForeground(Color.white);
+		b32.setBorder(border1);
+		b32.setVisible(true);
+		f7.add(b32);
+			
+		p4=new JTextArea();
+		p4.setBounds(300,460,400,500);
+		p4.setVisible(true);
+		p4.setBorder(border);
+		p4.setFont(p4.getFont().deriveFont(20.85632412f));
+		f7.add(p4);
 	}
 	/*public void paint(Graphics g){
 		g.drawRect(0, 0, 20, 20);
@@ -720,9 +836,17 @@ public class product extends JFrame implements ActionListener {
 			
 		}
         if(o==b8){
-        	int r=operations.insert(t3.getText(), t4.getText(), t5.getText(), t6.getText(), t7.getText());
-			if(r==1){
+        	int k=operations.search(Integer.parseInt(t3.getText()));
+        	if(k==1){
+            	System.out.println("Duplicate ID");
+            	l13.setVisible(true);
+			}
+        	else{
+        		int r=operations.insert(t3.getText(), t4.getText(), t5.getText(), t6.getText(), t7.getText());
+        	 if(r==1){
 				System.out.println("Data Inserted Succesfully** ");
+				f1.dispose();
+				f.setVisible(true);
 			}
 			else if(r==0){
             	System.out.println("Data Not Inserted");
@@ -730,6 +854,7 @@ public class product extends JFrame implements ActionListener {
             else{
             	System.out.println("Something else happened");
             }
+        	}
 		}
         if(o==b9){
 			f1.dispose();
@@ -746,9 +871,11 @@ public class product extends JFrame implements ActionListener {
 			int r1=operations.delete(t8.getText());
 			if(r1==1){
 				System.out.println("Data deleted Succesfully** ");
+			    f2.dispose();
 			}
 			else if(r1==0){
             	System.out.println("Data Not Deleted");
+            	l16.setVisible(true);
 			}
             else{
             	System.out.println("Something else happened");
@@ -759,12 +886,14 @@ public class product extends JFrame implements ActionListener {
 		}
         if(o==b14){
 			int r2=operations.update(t9.getText(), t10.getText(), t11.getText(), t15.getText(), t12.getText());
-			int r1=operations.delete(t8.getText());
-			if(r1==1){
+			if(r2==1){
 				System.out.println("Data updated Succesfully** ");
+				f3.dispose();
+				f.setVisible(true);
 			}
-			else if(r1==0){
+			else if(r2==0){
             	System.out.println("Data Not Updated");
+            	l23.setVisible(true);
 			}
             else{
             	System.out.println("Something else happened");
@@ -799,13 +928,15 @@ public class product extends JFrame implements ActionListener {
 		}
         if(o==b23){
         	p2.setText("");
-			String text1=operations.display_one_by_one(1);
+			String text1=operations.display_one_by_one(1,ssn);
+			ssn++;
 			p2.setText("\n\n\t"+text1);
 		}
         if(o==b22){
         	p2.setText("");
-        	String text2=operations.display_one_by_one(2);
-			p2.setText("\n\n\n\n\t\t\t"+text2);
+        	String text2=operations.display_one_by_one(2,ssn-2);
+        	ssn--;
+			p2.setText("\n\n\t"+text2);
 		}
         if(o==b24){
 			
@@ -821,7 +952,39 @@ public class product extends JFrame implements ActionListener {
 			f5.disable();
 			f.setVisible(true);
         }
-        
+        if(o==b28){
+        	p2.setText("");
+			String text5=operations.display_one_by_one(3,0);
+			p2.setText("\n\n\t"+text5);
+		}
+        if(o==b29){
+        	p2.setText("");
+        	String text6=operations.display_one_by_one(4,0);
+			p2.setText("\n\n\t"+text6);
+		}
+        if(o==b30){
+        	f7.dispose();
+        	f.setVisible(true);
+		}
+        if(o==b31){
+        	p4.setText("");
+        	int u=Integer.parseInt(t16.getText());
+        	String text9=operations.display_one_by_one(2,u);
+			p4.setText("\n\n\t"+text9);
+		}
+        if(o==b32){
+        	f7.dispose();
+        }
+        if(o==b33){
+        	f.dispose();
+        	f7.setVisible(true);
+        }
+        if(o==b34){
+        	p4.setText("");
+        	int u1=Integer.parseInt(t16.getText());
+        	String text10=operations.search_by_ID(u1);
+			p4.setText("\n\n\t"+text10);
+        }
 	}
 	public static void main(String[] args) {
 		new product();

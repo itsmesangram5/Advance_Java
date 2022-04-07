@@ -16,7 +16,7 @@ public class DAO {
 		 Class.forName("com.mysql.jdbc.Driver");
 
 	   //STEP 3: Open a connection
-	   	System.out.println("Connected to Database Successfully !!!");
+	   	//System.out.println("Connected to Database Successfully !!!");
 	   	
 	    conn = DriverManager.getConnection
                 (DB_URL,username,password);

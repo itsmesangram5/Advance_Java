@@ -20,7 +20,7 @@ public class Book_database extends JFrame implements ActionListener{
 	static JFrame f,f1,f2,f3,f4;
 	static JMenuBar mb;
 	static JMenu Db;
-	static JMenuItem insert,update,delete,display,exit;
+	static JMenuItem insert,update,delete,display,exit,show;
     static String sid,suser,spass;
     static JTextArea t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11;
     static JLabel l1,l2,l3,l4,l5,l6,l7,l8,l9,l10,l11,l12,l13,l14,l15;
@@ -140,6 +140,10 @@ public class Book_database extends JFrame implements ActionListener{
 		delete=new JMenuItem("Delete");
 		delete.addActionListener(this);
 		Db.add(delete);
+		
+		show=new JMenuItem("Display");
+		show.addActionListener(this);
+		Db.add(show);
 		
 		display=new JMenuItem("Search");
 		display.addActionListener(this);
@@ -316,6 +320,9 @@ public class Book_database extends JFrame implements ActionListener{
 		}
         if(z==b4){
         	l13.setText(search(t8.getText()));
+        }
+        if(z==show){
+        	DisplyAllRecords.display();
         }
         if(z==exit){
 			f.dispose();

@@ -24,6 +24,7 @@ public class Registration implements ActionListener,KeyListener {
 		tn= new JTextField();
 		tn.setBounds(200,50, 300, 20);
 		tn.addActionListener(this);
+		//tn.disable();
 		tn.addKeyListener(this);
 		f.add(tn);
 		

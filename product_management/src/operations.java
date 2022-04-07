@@ -3,6 +3,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 public class operations {
+	static int kis=1;
 	static int insert(String a1,String a2,String a3, String a4,String a5){
 		try
 		{
@@ -81,7 +82,7 @@ public class operations {
 		
 				int pid=Integer.parseInt(p);
 				
-				String deleteQuery="delete from booktable where pid=?";
+				String deleteQuery="delete from product_table where pid=?";
 				PreparedStatement preparedStatement;
 				
 				preparedStatement=conn.prepareStatement(deleteQuery);
@@ -125,23 +126,56 @@ public class operations {
 					return e+"";
 				}
 		}
-		static String display_one_by_one(int val){
+		static String display_one_by_one(int val,int p){
 			try{
 				DAO db=new DAO();
 				Connection conn=db.getConnection();
 			
+				/*String selectQuery="select * from product_table";
+				PreparedStatement preparedStatement;
+				
+				preparedStatement=conn.prepareStatement(selectQuery);
+				ResultSet result=preparedStatement.executeQuery();*/
+				
 				String selectQuery="select * from product_table";
 				PreparedStatement preparedStatement;
 				
 				preparedStatement=conn.prepareStatement(selectQuery);
 				ResultSet result=preparedStatement.executeQuery();
 				String string_data="\n\n\n\n\n\n\t\t\tNo More Data Found!!!";
-				if(val==1 && result.next()){
+				if(val==1 ){
+					/*result.next();
+					string_data="\n\tProduct ID\t"+result.getInt(1)+"\n\tName\t"+result.getString(2)+"\n\tPrice\t"+result.getInt(3)+"\n\tQuantity\t"+result.getInt(4)+"\n\tCompany\t"+result.getString(5)+"\n";
+					return string_data;*/
+					if(result.isLast()){
+						string_data="This is Last Entry!!!";
+						return string_data;
+					}
+					else{
+					result.absolute(p);
+					string_data="\n\tProduct ID\t"+result.getInt(1)+"\n\tName\t"+result.getString(2)+"\n\tPrice\t"+result.getInt(3)+"\n\tQuantity\t"+result.getInt(4)+"\n\tCompany\t"+result.getString(5)+"\n";
+					return string_data;}
+				}
+				if(val==2){
+					/*result.previous();
+					string_data="   \t"+result.getInt(1)+"\t"+result.getString(2)+"\t"+result.getInt(3)+"\t"+result.getInt(4)+"\t"+result.getString(5)+"\n";
+					return string_data;*/
+					if(result.isFirst()){
+						string_data="This is First Entry!!!";
+						return string_data;
+					}
+					else{result.absolute(p);
+					string_data="\n\tProduct ID\t"+result.getInt(1)+"\n\tName\t"+result.getString(2)+"\n\tPrice\t"+result.getInt(3)+"\n\tQuantity\t"+result.getInt(4)+"\n\tCompany\t"+result.getString(5)+"\n";
+					return string_data;}
+				}
+				if(val==3){
+					result.first();
 					string_data="\n\tProduct ID\t"+result.getInt(1)+"\n\tName\t"+result.getString(2)+"\n\tPrice\t"+result.getInt(3)+"\n\tQuantity\t"+result.getInt(4)+"\n\tCompany\t"+result.getString(5)+"\n";
 					return string_data;
 				}
-				if(val==2 && result.previous()){
-					string_data="   \t"+result.getInt(1)+"\t"+result.getString(2)+"\t"+result.getInt(3)+"\t"+result.getInt(4)+"\t"+result.getString(5)+"\n";
+				if(val==4){
+					result.last();
+					string_data="\n\tProduct ID\t"+result.getInt(1)+"\n\tName\t"+result.getString(2)+"\n\tPrice\t"+result.getInt(3)+"\n\tQuantity\t"+result.getInt(4)+"\n\tCompany\t"+result.getString(5)+"\n";
 					return string_data;
 				}
 				else{
@@ -152,6 +186,57 @@ public class operations {
 					return e+"";
 				}
 		}
+		static int search(int b1){
+			try{
+				DAO db=new DAO();
+				Connection conn=db.getConnection();
+			
+				String selectQuery="select * from product_table";
+				PreparedStatement preparedStatement;
+				
+				int s1=b1;
+				preparedStatement=conn.prepareStatement(selectQuery);
+				ResultSet result=preparedStatement.executeQuery();
+				
+				int data=0;
+				while(result.next()){
+					if(result.getInt(1)==s1){
+						data=1;
+					}
+				}
+				return data;
+				}
+				catch(Exception e){
+					return -1;
+				}
+		}
+		
+		static String search_by_ID(int b1){
+			try{
+				DAO db=new DAO();
+				Connection conn=db.getConnection();
+			
+				String selectQuery="select * from product_table";
+				PreparedStatement preparedStatement;
+				
+				int s1=b1;
+				preparedStatement=conn.prepareStatement(selectQuery);
+				ResultSet result=preparedStatement.executeQuery();
+				
+				String data="Data Not Found!!";
+				while(result.next()){
+					if(result.getInt(1)==s1){
+						data="\n\tProduct ID\t"+result.getInt(1)+"\n\tName\t"+result.getString(2)+"\n\tPrice\t"+result.getInt(3)+"\n\tQuantity\t"+result.getInt(4)+"\n\tCompany\t"+result.getString(5)+"\n";
+						return data;
+					}
+				}
+				return data;
+				}
+				catch(Exception e){
+					return e+"";
+				}
+		}
+		
       public static void main(String args[]){
     	  System.out.println(displayall());
       }
